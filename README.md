@@ -1,5 +1,6 @@
 # Cyanora_Qingyou
 Real-time facial emotion recognition and music interaction system on Raspberry Pi 5.
+The system captures facial expressions via camera, identifies the user's emotional state, and plays matching original piano pieces for emotional soothing.
 
 # System Architecture
 USB Camera → Face Detection (OpenCV) → Emotion Recognition (DeepFace) → Music (pygame)
@@ -24,10 +25,41 @@ Audio | Speaker / Headphones | Music playback
 
 # Emotion–Music Mapping
 | Emotion | Music | Goal |
-| Anxiety | Slow arpeggios, C major, 60 BPM | Reduce arousal |
-| Sadness |     Ascending melody, E major   |   Lift mood    |
-| Anger   |  Rhythmic pattern, B-flat major | Release tension |
+| Anxiety | Slow arpeggios, C major, 60 BPM |Reduce arousal|
+| Sadness |    Ascending melody, E major    | Lift mood    |
+| Anger |  Rhythmic pattern, B-flat major | Release tension |
 | Fear    |  Sustained low notes, D minor   |   Build safety |
 | Happy / Neutral / Surprise | Light jazz, free tempo | Maintain well-being |
+     All music is original piano performance.
 
-All music is original piano performance.
+# Getting Started
+git clone [https://github.com/Enola-Eve/Cyanora_Qingyou]
+cd moodflow-hardware
+pip install -r requirements.txt
+python main.py
+
+First run downloads DeepFace models automatically.
+
+# Project Structure
+├── main.py
+├── emotion_detector.py
+├── music_player.py
+├── music/
+│   ├── anxiety.mp3
+│   ├── sadness.mp3
+│   ├── anger.mp3
+│   ├── fear.mp3
+│   └── neutral.mp3
+├── requirements.txt
+└── README.md
+
+# Design Principles
+· Fully offline, no data leaves the device
+· No facial data recorded or uploaded
+· No diagnosis, no judgment — just music
+
+# Author
+[ZangYufei] — A-Level student, AI & psychology. HOSA Psychology National Finalist. Author of Face Recognition Technology in the Field of Intelligent Psychological Analysis.
+
+# License
+MIT
