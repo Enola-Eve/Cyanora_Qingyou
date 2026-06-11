@@ -59,7 +59,7 @@ First run downloads DeepFace models automatically.
 · No diagnosis, no judgment — just music
 
 # Author
-[ZangYufei] — A-Level student, AI & psychology. HOSA Psychology National Finalist. Author of Face Recognition Technology in the Field of Intelligent Psychological Analysis.
+[Yufei Zang] — High school student, AI & psychology. HOSA Psychology National Finalist. Author of Face Recognition Technology in the Field of Intelligent Psychological Analysis.
 
 # License
 MIT
