@@ -1,5 +1,4 @@
 
-```markdown
 # MoodFlow Hardware
 Real-time facial emotion recognition and music interaction system on Raspberry Pi 5.
 The system captures facial expressions via camera, identifies the user's emotional state, and plays matching original piano pieces for emotional soothing.
