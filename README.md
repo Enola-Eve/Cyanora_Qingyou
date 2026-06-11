@@ -88,7 +88,7 @@ Principles
 
 Author
 
-[Yufei Zang] — A-Level student, AI & psychology. HOSA Psychology National Finalist. Author of Face Recognition Technology in the Field of Intelligent Psychological Analysis.
+[Yufei Zang] — High school student, AI & psychology. HOSA Psychology National Finalist. Author of Face Recognition Technology in the Field of Intelligent Psychological Analysis.
 
 License
 
